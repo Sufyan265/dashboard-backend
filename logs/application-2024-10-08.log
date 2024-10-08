@@ -1,0 +1,28 @@
+2024-10-07T19:58:06.478Z info: Server running on port 5000
+2024-10-07T19:58:14.858Z info: [0mGET /api/portfolio [32m200[0m 43.384 ms - 588[0m
+2024-10-07T19:59:04.056Z info: [0mGET /api/portfolio [32m200[0m 12.385 ms - 588[0m
+2024-10-07T19:59:04.489Z info: [0mGET /api/portfolio [32m200[0m 8.487 ms - 588[0m
+2024-10-07T19:59:39.846Z info: [0mGET /api/transactions [32m200[0m 31.523 ms - 296[0m
+2024-10-07T19:59:44.376Z info: [0mGET /api/transactions [32m200[0m 7.125 ms - 296[0m
+2024-10-07T20:16:54.725Z info: Server running on port 5000
+2024-10-07T20:17:09.148Z info: [0mGET /api/taxes [32m200[0m 94.154 ms - 2[0m
+2024-10-07T20:18:33.292Z info: [0mPOST /api/users/register [33m400[0m 3.664 ms - 36[0m
+2024-10-07T20:18:43.872Z info: [0mPOST /api/users/register [33m400[0m 0.784 ms - 36[0m
+2024-10-07T20:21:12.907Z info: [0mPOST /api/users/register [33m400[0m 0.813 ms - 36[0m
+2024-10-07T20:21:14.039Z info: [0mPOST /api/users/register [33m400[0m 0.799 ms - 36[0m
+2024-10-07T20:21:14.203Z info: [0mPOST /api/users/register [33m400[0m 2.465 ms - 36[0m
+2024-10-07T20:21:14.341Z info: [0mPOST /api/users/register [33m400[0m 0.467 ms - 36[0m
+2024-10-07T20:21:14.460Z info: [0mPOST /api/users/register [33m400[0m 0.470 ms - 36[0m
+2024-10-07T20:21:14.524Z info: [0mPOST /api/users/register [33m400[0m 2.896 ms - 36[0m
+2024-10-07T20:21:24.174Z info: Server running on port 5000
+2024-10-07T20:21:31.439Z info: [0mPOST /api/users/register [33m400[0m 5.688 ms - 39[0m
+2024-10-07T20:21:51.479Z info: [0mPOST /api/users/register [32m201[0m 371.666 ms - 42[0m
+2024-10-07T20:22:59.253Z info: [0mPOST /api/users/login [32m200[0m 225.578 ms - 183[0m
+2024-10-07T20:24:52.267Z info: Server running on port 5000
+2024-10-07T20:24:56.927Z info: [0mPOST /api/users/register [32m201[0m 325.722 ms - 224[0m
+2024-10-07T20:25:11.313Z info: Server running on port 5000
+2024-10-07T20:25:18.006Z info: Server running on port 5000
+2024-10-07T21:04:13.619Z info: Server running on port 5000
+2024-10-07T21:04:16.285Z info: Server running on port 5000
+2024-10-07T21:04:22.925Z info: Server running on port 5000
+2024-10-07T21:08:31.464Z info: Server running on port 5000

@@ -1,0 +1,45 @@
+backend/
+│
+├── config/
+│   └── db.js                   # MongoDB connection setup
+│   └── authConfig.js            # Configuration for JWT and 2FA
+│
+├── controllers/  
+│   └── userController.js        # User-related functionalities (login, register, 2FA)
+│   └── portfolioController.js   # Portfolio-related routes (asset allocation, performance)
+│   └── transactionController.js # Transaction-related (buy/sell history)
+│   └── taxController.js         # Tax-related routes
+│   └── reportController.js      # Annual report generation
+│   └── dashboardController.js   # Handles account overview, customizable dashboard
+│
+├── models/
+│   └── User.js                  # User model schema (name, email, password, etc.)
+│   └── Portfolio.js             # Portfolio schema (asset allocation, performance)
+│   └── Transaction.js           # Transaction schema (buys, sells, dividends)
+│   └── TaxDocument.js           # Tax document schema
+│   └── Report.js                # Report schema for yearly summaries
+│
+├── routes/
+│   └── userRoutes.js            # Routes for authentication, user profile
+│   └── portfolioRoutes.js       # Routes for portfolio data (fetch/update)
+│   └── transactionRoutes.js     # Routes for transaction history
+│   └── taxRoutes.js             # Routes for tax data and documents
+│   └── reportRoutes.js          # Routes for annual report generation
+│   └── dashboardRoutes.js       # Routes for dashboard overview and widgets
+│
+├── middlewares/
+│   └── authMiddleware.js        # JWT verification middleware
+│   └── errorHandler.js          # Custom error handling
+│   └── rateLimiter.js           # Rate-limiting for security
+│
+├── utils/
+│   └── taxCalculator.js         # Utility for tax impact analysis
+│   └── reportGenerator.js       # Utility for generating annual reports
+│   └── emailService.js          # Utility for sending emails (for reports, transactions)
+│   └── socketManager.js         # For real-time updates (Socket.io)
+│
+├── .env                         # Environment variables (MongoDB URI, JWT secrets)
+├── .gitignore                   # Ignoring unnecessary files
+├── server.js                    # Entry point, setup for Express and middleware
+├── package.json                 # Project dependencies and scripts
+└── README.md                    # Documentation for the project
