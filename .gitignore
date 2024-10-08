@@ -11,6 +11,8 @@ node_modules
 # production
 /build
 
+application-2024-10-08.log
+
 # misc
 .DS_Store
 .env
