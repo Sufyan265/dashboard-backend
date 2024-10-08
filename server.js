@@ -20,22 +20,18 @@ const logger = require('./logs/logger'); // Import the logger
 connectDB();
 const app = express();
 
-// Trust the proxy headers
-app.set('trust proxy', 1);
-
 app.use(express.json());
 app.use(helmet());
 
 // Configure CORS to allow requests from the specified origin
 app.use(cors({
-    origin: 'http://dashboard.cephas.agency',
+    origin: '*', // Allow all origins for testing
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
-    credentials: true // Allow cookies to be sent
+    credentials: true
 }));
 
 app.options('*', cors()); // Enable pre-flight across-the-board
-
 
 app.use(morgan('dev', { stream: { write: message => logger.info(message.trim()) } })); // Use logger for HTTP requests
 app.use(rateLimiter);
