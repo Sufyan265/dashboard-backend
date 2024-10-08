@@ -34,8 +34,11 @@ app.use(cors({
     credentials: true // Allow cookies to be sent
 }));
 
+app.options('*', cors()); // Enable pre-flight across-the-board
+
 // Log CORS configuration
 console.log('CORS configured for origin: http://dashboard.cephas.agency');
+
 
 app.use(morgan('dev', { stream: { write: message => logger.info(message.trim()) } })); // Use logger for HTTP requests
 app.use(rateLimiter);
