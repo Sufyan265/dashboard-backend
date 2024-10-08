@@ -20,6 +20,9 @@ const logger = require('./logs/logger'); // Import the logger
 connectDB();
 const app = express();
 
+// Trust the proxy headers
+app.set('trust proxy', 1);
+
 app.use(express.json());
 app.use(helmet());
 
