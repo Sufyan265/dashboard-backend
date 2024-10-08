@@ -23,22 +23,31 @@ const app = express();
 app.use(express.json());
 app.use(helmet());
 
-app.use(cors({
-    origin: 'http://dashboard.cephas.agency', // Allow requests from this origin
-    credentials: true // Allow cookies to be sent
-}));
-
-// const allowedOrigins = ['http://localhost:5173', 'http://dashboard.cephas.agency'];
 // app.use(cors({
-//     origin: function (origin, callback) {
-//         if (!origin || allowedOrigins.indexOf(origin) !== -1) {
-//             callback(null, true);
-//         } else {
-//             callback(new Error('Not allowed by CORS'));
-//         }
-//     },
+//     origin: 'http://dashboard.cephas.agency', // Allow requests from this origin
 //     credentials: true // Allow cookies to be sent
 // }));
+
+// Configure CORS to allow requests from the specified origin
+app.use(cors({
+    origin: 'http://dashboard.cephas.agency',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
+
+// const allowedOrigins = ['http://localhost:5173', 'http://dashboard.cephas.agency'];
+// app.use((req, res, next) => {
+//     res.header('Access-Control-Allow-Origin', req.headers.origin || '*');
+//     res.header('Access-Control-Allow-Methods', 'GET,POST,PUT,DELETE,OPTIONS');
+//     res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+//     res.header('Access-Control-Allow-Credentials', 'true');
+//     if (req.method === 'OPTIONS') {
+//         return res.sendStatus(200);
+//     }
+//     next();
+// });
+
 
 
 app.use(morgan('dev', { stream: { write: message => logger.info(message.trim()) } })); // Use logger for HTTP requests
