@@ -10,12 +10,7 @@ exports.getTransactions = async (req, res) => {
 
         const response = transactions.map(transaction => ({
             date: transaction.date.toISOString().split('T')[0],
-            type: transaction.type.charAt(0).toUpperCase() + transaction.type.slice(1),
-            asset: transaction.asset,
-            quantity: transaction.quantity,
-            price: transaction.price,
-            total: transaction.total,
-            fees: transaction.fees
+            amount: transaction.amount
         }));
 
         res.json(response);

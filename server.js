@@ -9,6 +9,7 @@ const transactionRoutes = require('./routes/transactionRoutes');
 const taxRoutes = require('./routes/taxRoutes');
 const reportRoutes = require('./routes/reportRoutes');
 const dashboardRoutes = require('./routes/dashboardRoutes');
+const investmentsRoutes = require('./routes/investmentsRoutes');
 const rateLimiter = require('./middlewares/rateLimiter');
 const helmet = require('helmet');
 const cors = require('cors');
@@ -42,6 +43,7 @@ app.use('/api/transactions', transactionRoutes);
 app.use('/api/taxes', taxRoutes);
 app.use('/api/reports', reportRoutes);
 app.use('/api/dashboard', dashboardRoutes);
+app.use('/api/investments', investmentsRoutes);
 
 app.use(errorHandler);
 

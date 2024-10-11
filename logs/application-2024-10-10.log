@@ -1,0 +1,42 @@
+2024-10-09T19:11:23.972Z info: Server running on port 5000
+2024-10-09T19:11:25.929Z info: MongoDB connected
+2024-10-09T19:22:50.079Z info: Server running on port 5000
+2024-10-09T19:22:50.122Z info: MongoDB connected
+2024-10-09T19:27:48.550Z info: Server running on port 5000
+2024-10-09T19:27:48.597Z info: MongoDB connected
+2024-10-09T19:28:29.168Z info: Server running on port 5000
+2024-10-09T19:28:29.234Z info: MongoDB connected
+2024-10-09T19:28:40.521Z info: Server running on port 5000
+2024-10-09T19:28:40.562Z info: MongoDB connected
+2024-10-09T19:28:54.587Z info: Server running on port 5000
+2024-10-09T19:28:54.654Z info: MongoDB connected
+2024-10-09T19:28:57.242Z info: Server running on port 5000
+2024-10-09T19:28:57.273Z info: MongoDB connected
+2024-10-09T19:29:02.451Z info: Server running on port 5000
+2024-10-09T19:29:02.474Z info: MongoDB connected
+2024-10-09T19:29:06.660Z info: Server running on port 5000
+2024-10-09T19:29:06.683Z info: MongoDB connected
+2024-10-09T19:29:10.483Z info: Server running on port 5000
+2024-10-09T19:29:10.513Z info: MongoDB connected
+2024-10-09T19:29:21.727Z info: Server running on port 5000
+2024-10-09T19:29:21.764Z info: MongoDB connected
+2024-10-09T19:29:26.858Z info: Server running on port 5000
+2024-10-09T19:29:26.889Z info: MongoDB connected
+2024-10-09T19:29:28.731Z info: Server running on port 5000
+2024-10-09T19:29:28.772Z info: MongoDB connected
+2024-10-09T19:37:55.164Z info: Server running on port 5000
+2024-10-09T19:37:55.195Z info: MongoDB connected
+2024-10-09T19:37:59.735Z info: Server running on port 5000
+2024-10-09T19:37:59.765Z info: MongoDB connected
+2024-10-09T19:38:23.683Z info: Server running on port 5000
+2024-10-09T19:38:23.707Z info: MongoDB connected
+2024-10-09T20:04:35.097Z info: [0mGET /products/best-selling [33m404[0m 9.948 ms - 160[0m
+2024-10-09T20:04:35.188Z info: [0mGET /products/best-selling [33m404[0m 15.690 ms - 160[0m
+2024-10-09T20:04:35.237Z info: [0mGET /products/popular [33m404[0m 3.667 ms - 155[0m
+2024-10-09T20:04:35.313Z info: [0mGET /products/popular [33m404[0m 1.470 ms - 155[0m
+2024-10-09T20:04:36.981Z info: [0mGET /products/best-selling [33m404[0m 1.115 ms - 160[0m
+2024-10-09T20:04:36.988Z info: [0mGET /products/popular [33m404[0m 2.856 ms - 155[0m
+2024-10-09T20:04:36.997Z info: [0mGET /products/best-selling [33m404[0m 1.703 ms - 160[0m
+2024-10-09T20:04:37.001Z info: [0mGET /products/popular [33m404[0m 1.256 ms - 155[0m
+2024-10-09T20:05:10.224Z info: Server running on port 5000
+2024-10-09T20:05:10.263Z info: MongoDB connected

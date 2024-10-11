@@ -4,22 +4,25 @@ const jwt = require('jsonwebtoken');
 const { jwtSecret, jwtExpire } = require('../config/authConfig');
 
 exports.registerUser = async (req, res) => {
-    const { name, email, password, confirmPassword } = req.body;
+    const { name, username, email, address, dateOfBirth, password } = req.body;
     try {
-        if (!name || !email || !password || !confirmPassword ) {
+        if (!name || !username || !email || !address || !dateOfBirth || !password) {
             return res.status(400).json({ message: 'Please provide all fields' });
         }
-        
-        if (password !== confirmPassword) {
-            return res.status(400).json({ message: 'Passwords do not match' });
+
+        const emailExists = await User.findOne({ email });
+        if (emailExists) {
+            return res.status(400).json({ message: 'User with this Email already exists' });
         }
-        const userExists = await User.findOne({ email });
-        if (userExists) {
-            return res.status(400).json({ message: 'User already exists' });
+
+        const usernameExists = await User.findOne({ username });
+        if (usernameExists) {
+            return res.status(400).json({ message: 'This Username already exists' });
         }
+
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(password, salt);
-        const user = new User({ name, email, password: hashedPassword });
+        const user = new User({ name, username, email, address, dateOfBirth, password: hashedPassword });
         await user.save();
 
         // Generate JWT token
@@ -43,7 +46,7 @@ exports.loginUser = async (req, res) => {
             return res.status(400).json({ message: 'Invalid credentials' });
         }
         const token = jwt.sign({ id: user._id }, jwtSecret, { expiresIn: jwtExpire });
-        res.json({ token });
+        res.json({ token, isAdmin: user.isAdmin });
     } catch (error) {
         console.error('Error during login:', error); // Log the error for debugging
         res.status(500).json({ message: 'Server Error' });
