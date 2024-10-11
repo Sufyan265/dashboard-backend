@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
 const investmentSchema = new mongoose.Schema({
+    userId: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User'
+    },
     date: {
         type: Date,
         required: true,
@@ -31,4 +35,4 @@ const investmentSchema = new mongoose.Schema({
 
 const Investment = mongoose.model('Investment', investmentSchema);
 
-module.exports = Investment;
+module.exports = Investment; 

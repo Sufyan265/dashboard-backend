@@ -321,3 +321,207 @@
 2024-10-11T11:49:52.733Z info: [0mPOST /api/investments/add [32m201[0m 1421.713 ms - 275[0m
 2024-10-11T11:50:37.083Z info: [0mGET /api/investments/get [32m200[0m 89.627 ms - 761[0m
 2024-10-11T12:27:05.691Z info: [0mPUT /api/investments/edit/67090f179211d00c13ddd712 [32m200[0m 2235.125 ms - 275[0m
+2024-10-11T12:34:06.594Z info: [0mPOST /api/investments/add [32m201[0m 1315.402 ms - 275[0m
+2024-10-11T12:44:35.309Z info: [0mGET /api/investments/get [33m401[0m 1.419 ms - 44[0m
+2024-10-11T12:44:35.498Z info: [0mGET /api/investments/get [33m401[0m 2.539 ms - 44[0m
+2024-10-11T12:44:41.894Z info: [0mGET /api/investments/get [33m401[0m 1.600 ms - 44[0m
+2024-10-11T12:44:41.903Z info: [0mGET /api/investments/get [33m401[0m 1.508 ms - 44[0m
+2024-10-11T12:45:07.680Z info: [0mGET /api/investments/get [33m401[0m 2.417 ms - 44[0m
+2024-10-11T12:45:07.685Z info: [0mGET /api/investments/get [33m401[0m 1.218 ms - 44[0m
+2024-10-11T12:45:16.329Z info: [0mGET /api/investments/get [33m401[0m 1.114 ms - 44[0m
+2024-10-11T12:45:16.347Z info: [0mGET /api/investments/get [33m401[0m 0.829 ms - 44[0m
+2024-10-11T12:45:30.721Z info: [0mGET /api/investments/get [33m401[0m 1.301 ms - 44[0m
+2024-10-11T12:45:30.728Z info: [0mGET /api/investments/get [33m401[0m 0.936 ms - 44[0m
+2024-10-11T12:47:29.564Z info: [0mGET /api/investments/get [33m401[0m 1.094 ms - 44[0m
+2024-10-11T12:47:29.721Z info: [0mGET /api/investments/get [33m401[0m 1.649 ms - 44[0m
+2024-10-11T12:47:37.373Z info: [0mPOST /api/users/login [32m200[0m 253.650 ms - 198[0m
+2024-10-11T12:47:37.469Z info: [0mGET /api/investments/get [33m401[0m 0.986 ms - 44[0m
+2024-10-11T12:47:37.479Z info: [0mGET /api/investments/get [33m401[0m 1.262 ms - 44[0m
+2024-10-11T12:48:20.996Z info: [0mPOST /api/users/login [32m200[0m 246.417 ms - 198[0m
+2024-10-11T12:48:21.082Z info: [0mGET /api/investments/get [33m401[0m 0.806 ms - 44[0m
+2024-10-11T12:48:21.140Z info: [0mGET /api/investments/get [33m401[0m 0.918 ms - 44[0m
+2024-10-11T12:48:30.840Z info: [0mGET /api/investments/get [32m200[0m 85.623 ms - 1013[0m
+2024-10-11T12:50:01.828Z info: [0mGET /api/investments/get [32m200[0m 78.466 ms - 1013[0m
+2024-10-11T12:50:59.901Z info: [0mPOST /api/users/login [32m200[0m 214.178 ms - 198[0m
+2024-10-11T12:51:00.083Z info: [0mGET /api/investments/get [32m200[0m 79.718 ms - 1013[0m
+2024-10-11T12:51:00.165Z info: [0mGET /api/investments/get [36m304[0m 79.151 ms - -[0m
+2024-10-11T12:51:04.995Z info: [0mGET /api/investments/get [36m304[0m 80.056 ms - -[0m
+2024-10-11T12:51:05.078Z info: [0mGET /api/investments/get [36m304[0m 79.162 ms - -[0m
+2024-10-11T12:51:15.758Z info: [0mGET /api/investments/get [36m304[0m 80.931 ms - -[0m
+2024-10-11T12:51:15.860Z info: [0mGET /api/investments/get [36m304[0m 81.314 ms - -[0m
+2024-10-11T12:51:16.761Z info: [0mGET /api/investments/get [36m304[0m 78.850 ms - -[0m
+2024-10-11T12:51:16.864Z info: [0mGET /api/investments/get [36m304[0m 79.449 ms - -[0m
+2024-10-11T12:51:19.817Z info: [0mGET /api/investments/get [36m304[0m 96.454 ms - -[0m
+2024-10-11T12:51:19.919Z info: [0mGET /api/investments/get [36m304[0m 94.552 ms - -[0m
+2024-10-11T12:53:12.826Z info: [0mGET /api/investments/get [36m304[0m 83.007 ms - -[0m
+2024-10-11T12:53:12.911Z info: [0mGET /api/investments/get [36m304[0m 82.351 ms - -[0m
+2024-10-11T12:53:38.063Z info: [0mGET /api/investments/get [36m304[0m 80.872 ms - -[0m
+2024-10-11T12:53:38.150Z info: [0mGET /api/investments/get [36m304[0m 81.106 ms - -[0m
+2024-10-11T12:54:01.173Z info: [0mGET /api/investments/get [36m304[0m 78.004 ms - -[0m
+2024-10-11T12:54:01.262Z info: [0mGET /api/investments/get [36m304[0m 78.298 ms - -[0m
+2024-10-11T12:54:02.206Z info: [0mGET /api/investments/get [36m304[0m 79.214 ms - -[0m
+2024-10-11T12:54:02.294Z info: [0mGET /api/investments/get [36m304[0m 84.993 ms - -[0m
+2024-10-11T12:54:39.878Z info: [0mGET /api/investments/get [36m304[0m 91.831 ms - -[0m
+2024-10-11T12:55:11.752Z info: [0mGET /api/investments/get [36m304[0m 77.309 ms - -[0m
+2024-10-11T12:58:54.849Z info: [0mGET /api/investments/get [36m304[0m 83.455 ms - -[0m
+2024-10-11T12:58:54.933Z info: [0mGET /api/investments/get [36m304[0m 78.967 ms - -[0m
+2024-10-11T12:59:48.632Z info: [0mGET /api/investments/get [36m304[0m 78.603 ms - -[0m
+2024-10-11T12:59:48.715Z info: [0mGET /api/investments/get [36m304[0m 80.061 ms - -[0m
+2024-10-11T13:00:30.233Z info: [0mPOST /api/investments/add [32m201[0m 1338.276 ms - 268[0m
+2024-10-11T13:00:42.793Z info: [0mGET /api/investments/get [32m200[0m 80.069 ms - 1252[0m
+2024-10-11T13:00:42.876Z info: [0mGET /api/investments/get [36m304[0m 78.167 ms - -[0m
+2024-10-11T13:00:43.748Z info: [0mGET /api/investments/get [36m304[0m 76.336 ms - -[0m
+2024-10-11T13:00:43.829Z info: [0mGET /api/investments/get [36m304[0m 78.806 ms - -[0m
+2024-10-11T13:00:45.778Z info: [0mGET /api/investments/get [36m304[0m 77.921 ms - -[0m
+2024-10-11T13:00:45.860Z info: [0mGET /api/investments/get [36m304[0m 79.916 ms - -[0m
+2024-10-11T13:00:57.742Z info: [0mGET /api/investments/get [36m304[0m 83.902 ms - -[0m
+2024-10-11T13:01:03.748Z info: [0mGET /api/investments/get [36m304[0m 78.973 ms - -[0m
+2024-10-11T13:01:06.775Z info: [0mGET /api/investments/get [36m304[0m 96.611 ms - -[0m
+2024-10-11T13:01:08.739Z info: [0mGET /api/investments/get [36m304[0m 78.259 ms - -[0m
+2024-10-11T13:01:25.740Z info: [0mGET /api/investments/get [36m304[0m 78.379 ms - -[0m
+2024-10-11T13:01:29.729Z info: [0mGET /api/investments/get [36m304[0m 77.538 ms - -[0m
+2024-10-11T13:01:34.742Z info: [0mGET /api/investments/get [36m304[0m 78.747 ms - -[0m
+2024-10-11T13:01:38.729Z info: [0mGET /api/investments/get [36m304[0m 80.459 ms - -[0m
+2024-10-11T13:01:43.755Z info: [0mGET /api/investments/get [36m304[0m 80.108 ms - -[0m
+2024-10-11T13:01:44.724Z info: [0mGET /api/investments/get [36m304[0m 79.339 ms - -[0m
+2024-10-11T13:01:51.087Z info: [0mGET /api/investments/get [36m304[0m 85.253 ms - -[0m
+2024-10-11T13:01:51.193Z info: [0mGET /api/investments/get [36m304[0m 99.701 ms - -[0m
+2024-10-11T13:02:14.070Z info: [0mGET /api/investments/get [36m304[0m 79.895 ms - -[0m
+2024-10-11T13:02:16.291Z info: [0mGET /api/investments/get [36m304[0m 80.199 ms - -[0m
+2024-10-11T13:02:16.374Z info: [0mGET /api/investments/get [36m304[0m 80.064 ms - -[0m
+2024-10-11T13:02:35.768Z info: [0mGET /api/investments/get [36m304[0m 77.282 ms - -[0m
+2024-10-11T13:02:40.735Z info: [0mGET /api/investments/get [36m304[0m 77.928 ms - -[0m
+2024-10-11T13:03:51.760Z info: [0mGET /api/investments/get [36m304[0m 77.486 ms - -[0m
+2024-10-11T13:03:51.852Z info: [0mGET /api/investments/get [36m304[0m 79.108 ms - -[0m
+2024-10-11T13:04:03.784Z info: [0mGET /api/investments/get [36m304[0m 76.943 ms - -[0m
+2024-10-11T13:04:03.864Z info: [0mGET /api/investments/get [36m304[0m 77.658 ms - -[0m
+2024-10-11T13:04:30.508Z info: [0mPUT /api/investments/edit/67090f179211d00c13ddd713 [32m200[0m 938.669 ms - 277[0m
+2024-10-11T13:04:51.349Z info: [0mGET /api/dashboard [32m200[0m 163.609 ms - 1292[0m
+2024-10-11T13:04:51.537Z info: [0mGET /api/dashboard [36m304[0m 182.537 ms - -[0m
+2024-10-11T13:06:23.305Z info: Server running on port 5000
+2024-10-11T13:06:24.737Z info: MongoDB connected
+2024-10-11T13:06:32.192Z info: Server running on port 5000
+2024-10-11T13:06:33.459Z info: MongoDB connected
+2024-10-11T13:06:36.975Z info: Server running on port 5000
+2024-10-11T13:06:38.048Z info: MongoDB connected
+2024-10-11T13:08:06.671Z info: Server running on port 5000
+2024-10-11T13:08:07.929Z info: MongoDB connected
+2024-10-11T13:08:12.127Z info: Server running on port 5000
+2024-10-11T13:08:14.599Z info: Server running on port 5000
+2024-10-11T13:08:17.268Z info: Server running on port 5000
+2024-10-11T13:08:19.606Z info: Server running on port 5000
+2024-10-11T13:08:20.769Z info: MongoDB connected
+2024-10-11T13:08:23.197Z info: Server running on port 5000
+2024-10-11T13:08:26.053Z info: Server running on port 5000
+2024-10-11T13:08:27.179Z info: MongoDB connected
+2024-10-11T13:08:47.302Z info: Server running on port 5000
+2024-10-11T13:08:48.566Z info: MongoDB connected
+2024-10-11T13:09:04.466Z info: [0mGET /api/dashboard [32m200[0m 430.406 ms - 1309[0m
+2024-10-11T13:09:04.855Z info: [0mGET /api/dashboard [36m304[0m 377.598 ms - -[0m
+2024-10-11T13:09:24.537Z info: Server running on port 5000
+2024-10-11T13:09:25.796Z info: MongoDB connected
+2024-10-11T13:09:30.919Z info: Server running on port 5000
+2024-10-11T13:09:31.972Z info: MongoDB connected
+2024-10-11T13:09:32.965Z info: [0mGET /api/dashboard [36m304[0m 1978.877 ms - -[0m
+2024-10-11T13:09:33.208Z info: [0mGET /api/dashboard [36m304[0m 238.228 ms - -[0m
+2024-10-11T13:09:38.576Z info: [0mGET /api/dashboard [36m304[0m 248.926 ms - -[0m
+2024-10-11T13:09:38.950Z info: [0mGET /api/dashboard [36m304[0m 320.377 ms - -[0m
+2024-10-11T13:11:02.969Z info: Server running on port 5000
+2024-10-11T13:11:03.871Z info: MongoDB connected
+2024-10-11T13:11:20.741Z info: Server running on port 5000
+2024-10-11T13:11:21.876Z info: MongoDB connected
+2024-10-11T13:12:05.115Z info: [0mPOST /api/investments/add [32m201[0m 1290.290 ms - 275[0m
+2024-10-11T13:12:23.511Z info: [0mGET /api/dashboard [32m200[0m 416.729 ms - 1310[0m
+2024-10-11T13:12:23.871Z info: [0mGET /api/dashboard [36m304[0m 356.510 ms - -[0m
+2024-10-11T13:12:38.322Z info: [0mGET /api/dashboard [33m404[0m 123.583 ms - 33[0m
+2024-10-11T13:12:42.232Z info: [0mGET /api/dashboard [33m404[0m 119.122 ms - 33[0m
+2024-10-11T13:12:54.419Z info: [0mGET /api/dashboard [33m401[0m 1.148 ms - 32[0m
+2024-10-11T13:12:56.560Z info: [0mGET /api/dashboard [33m401[0m 1.447 ms - 32[0m
+2024-10-11T13:13:07.724Z info: [0mGET /api/dashboard [32m200[0m 348.891 ms - 1310[0m
+2024-10-11T13:13:39.605Z info: Server running on port 5000
+2024-10-11T13:13:40.824Z info: MongoDB connected
+2024-10-11T13:13:41.743Z info: [0mPOST /api/investments/add [32m201[0m 959.570 ms - 311[0m
+2024-10-11T13:14:21.832Z info: Server running on port 5000
+2024-10-11T13:14:23.060Z info: MongoDB connected
+2024-10-11T13:14:23.922Z info: [0mGET /api/dashboard [36m304[0m 2015.329 ms - -[0m
+2024-10-11T13:14:24.284Z info: [0mGET /api/dashboard [36m304[0m 358.932 ms - -[0m
+2024-10-11T13:14:36.356Z info: [0mGET /api/dashboard [32m200[0m 352.445 ms - 1310[0m
+2024-10-11T13:17:12.884Z info: Server running on port 5000
+2024-10-11T13:17:14.063Z info: MongoDB connected
+2024-10-11T13:17:14.685Z info: [0mGET /api/dashboard [33m404[0m 782.784 ms - 35[0m
+2024-10-11T13:17:16.467Z info: [0mGET /api/dashboard [33m404[0m 362.429 ms - 35[0m
+2024-10-11T13:18:07.699Z info: [0mGET /api/dashboard [33m404[0m 364.391 ms - 35[0m
+2024-10-11T13:19:31.467Z info: Server running on port 5000
+2024-10-11T13:19:32.792Z info: MongoDB connected
+2024-10-11T13:19:38.474Z info: [0mGET /api/dashboard [33m404[0m 266.869 ms - 35[0m
+2024-10-11T13:19:45.506Z info: Server running on port 5000
+2024-10-11T13:19:46.500Z info: MongoDB connected
+2024-10-11T13:20:56.915Z info: Server running on port 5000
+2024-10-11T13:20:58.106Z info: MongoDB connected
+2024-10-11T13:22:05.269Z info: [0mGET /api/dashboard [33m404[0m 261.981 ms - 35[0m
+2024-10-11T13:22:51.907Z info: Server running on port 5000
+2024-10-11T13:22:55.665Z info: Server running on port 5000
+2024-10-11T13:22:56.902Z info: MongoDB connected
+2024-10-11T13:23:03.158Z info: [0mGET /api/dashboard [33m404[0m 264.373 ms - 35[0m
+2024-10-11T13:25:16.854Z info: Server running on port 5000
+2024-10-11T13:25:18.250Z info: MongoDB connected
+2024-10-11T13:25:20.332Z info: Server running on port 5000
+2024-10-11T13:25:23.445Z info: Server running on port 5000
+2024-10-11T13:25:24.877Z info: MongoDB connected
+2024-10-11T13:25:54.169Z info: [0mGET /api/dashboard [32m200[0m 287.534 ms - 3299[0m
+2024-10-11T13:26:30.943Z info: [0mGET /api/dashboard [32m200[0m 264.281 ms - 3299[0m
+2024-10-11T13:26:31.209Z info: [0mGET /api/dashboard [36m304[0m 258.058 ms - -[0m
+2024-10-11T13:27:20.927Z info: [0mGET /api/dashboard [36m304[0m 252.816 ms - -[0m
+2024-10-11T13:27:21.171Z info: [0mGET /api/dashboard [36m304[0m 239.024 ms - -[0m
+2024-10-11T13:27:33.935Z info: [0mGET /api/dashboard [36m304[0m 260.189 ms - -[0m
+2024-10-11T13:27:34.181Z info: [0mGET /api/dashboard [36m304[0m 242.829 ms - -[0m
+2024-10-11T13:27:35.986Z info: [0mGET /api/dashboard [36m304[0m 240.400 ms - -[0m
+2024-10-11T13:27:36.245Z info: [0mGET /api/dashboard [36m304[0m 254.632 ms - -[0m
+2024-10-11T13:27:44.335Z info: [0mGET /api/dashboard [36m304[0m 248.779 ms - -[0m
+2024-10-11T13:27:44.600Z info: [0mGET /api/dashboard [36m304[0m 256.336 ms - -[0m
+2024-10-11T13:28:00.442Z info: [0mGET /api/dashboard [36m304[0m 245.496 ms - -[0m
+2024-10-11T13:28:00.717Z info: [0mGET /api/dashboard [36m304[0m 264.641 ms - -[0m
+2024-10-11T13:49:41.103Z info: Server running on port 5000
+2024-10-11T13:49:42.521Z info: MongoDB connected
+2024-10-11T13:49:47.316Z info: [0mGET /api/dashboard [33m404[0m 403.536 ms - 35[0m
+2024-10-11T13:50:13.261Z info: [0mPOST /api/users/login [32m200[0m 309.178 ms - 198[0m
+2024-10-11T13:50:21.720Z info: [0mGET /api/dashboard [33m404[0m 366.582 ms - 35[0m
+2024-10-11T13:52:19.273Z info: Server running on port 5000
+2024-10-11T13:52:20.570Z info: MongoDB connected
+2024-10-11T13:52:28.929Z info: Server running on port 5000
+2024-10-11T13:52:30.259Z info: MongoDB connected
+2024-10-11T13:53:02.042Z info: Server running on port 5000
+2024-10-11T13:53:03.073Z info: MongoDB connected
+2024-10-11T13:54:33.595Z info: Server running on port 5000
+2024-10-11T13:54:42.139Z info: Server running on port 5000
+2024-10-11T13:54:43.102Z info: MongoDB connected
+2024-10-11T13:55:16.847Z info: Server running on port 5000
+2024-10-11T13:55:18.025Z info: MongoDB connected
+2024-10-11T13:55:20.679Z info: Server running on port 5000
+2024-10-11T13:55:21.614Z info: MongoDB connected
+2024-10-11T13:55:29.803Z info: Server running on port 5000
+2024-10-11T13:55:30.830Z info: MongoDB connected
+2024-10-11T13:55:36.859Z info: Server running on port 5000
+2024-10-11T13:55:37.940Z info: MongoDB connected
+2024-10-11T13:55:52.573Z info: Server running on port 5000
+2024-10-11T13:55:53.622Z info: MongoDB connected
+2024-10-11T13:56:06.380Z info: Server running on port 5000
+2024-10-11T13:56:07.402Z info: MongoDB connected
+2024-10-11T13:56:10.442Z info: Server running on port 5000
+2024-10-11T13:56:11.577Z info: MongoDB connected
+2024-10-11T13:56:25.265Z info: Server running on port 5000
+2024-10-11T13:56:26.265Z info: MongoDB connected
+2024-10-11T13:56:54.132Z info: Server running on port 5000
+2024-10-11T13:56:55.023Z info: MongoDB connected
+2024-10-11T13:57:27.092Z info: Server running on port 5000
+2024-10-11T13:57:28.095Z info: MongoDB connected
+2024-10-11T13:57:35.037Z info: Server running on port 5000
+2024-10-11T13:57:35.984Z info: MongoDB connected
+2024-10-11T13:57:44.955Z info: Server running on port 5000
+2024-10-11T13:57:46.606Z info: MongoDB connected
+2024-10-11T13:58:52.824Z info: Server running on port 5000
+2024-10-11T13:58:54.015Z info: MongoDB connected
+2024-10-11T13:59:13.843Z info: Server running on port 5000
+2024-10-11T13:59:14.852Z info: MongoDB connected
+2024-10-11T13:59:46.690Z info: Server running on port 5000
+2024-10-11T13:59:47.590Z info: MongoDB connected

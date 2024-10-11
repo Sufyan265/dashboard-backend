@@ -4,7 +4,11 @@ const { fetchPerformanceData } = require('../utils/PerformanceData.js');
 exports.addInvestment = async (req, res) => {
     try {
         const { date, type, amount } = req.body;
-        const newInvestment = new Investment({ date, type, amount });
+        if (!date || !type || !amount) {
+            return res.status(400).json({ success: false, error: 'Please provide date, type and amount' });
+        }
+        const newInvestment = new Investment({ date, type, amount, userId: req.user.id });
+        
         await newInvestment.save();
 
         // Fetch real-time data from Alpha Vantage or Yahoo Finance
