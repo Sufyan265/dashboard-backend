@@ -525,3 +525,27 @@
 2024-10-11T13:59:14.852Z info: MongoDB connected
 2024-10-11T13:59:46.690Z info: Server running on port 5000
 2024-10-11T13:59:47.590Z info: MongoDB connected
+2024-10-11T13:59:51.712Z info: Server running on port 5000
+2024-10-11T13:59:52.606Z info: MongoDB connected
+2024-10-11T14:01:31.193Z info: [0mGET /api/dashboard [36m304[0m 450.020 ms - -[0m
+2024-10-11T14:01:36.087Z info: [0mGET /api/dashboard [36m304[0m 388.771 ms - -[0m
+2024-10-11T14:02:34.216Z info: [0mGET /api/dashboard [36m304[0m 551.902 ms - -[0m
+2024-10-11T14:02:34.785Z info: [0mGET /api/dashboard [36m304[0m 565.151 ms - -[0m
+2024-10-11T14:02:45.073Z info: [0mGET /api/dashboard [36m304[0m 402.181 ms - -[0m
+2024-10-11T14:02:45.455Z info: [0mGET /api/dashboard [36m304[0m 378.627 ms - -[0m
+2024-10-11T14:02:47.038Z info: [0mGET /api/dashboard [36m304[0m 355.030 ms - -[0m
+2024-10-11T14:02:51.130Z info: [0mGET /api/dashboard [36m304[0m 397.781 ms - -[0m
+2024-10-11T14:02:54.490Z info: [0mGET /api/dashboard [36m304[0m 800.663 ms - -[0m
+2024-10-11T14:02:59.676Z info: [0mGET /api/dashboard [36m304[0m 710.039 ms - -[0m
+2024-10-11T14:02:59.825Z info: [0mGET /api/transactions [32m200[0m 129.152 ms - 354[0m
+2024-10-11T14:03:00.065Z info: [0mGET /api/transactions [36m304[0m 136.366 ms - -[0m
+2024-10-11T14:03:03.169Z info: [0mGET /api/dashboard [36m304[0m 389.100 ms - -[0m
+2024-10-11T14:03:03.576Z info: [0mGET /api/dashboard [36m304[0m 404.313 ms - -[0m
+2024-10-11T14:03:06.609Z info: [0mGET /api/transactions [36m304[0m 136.981 ms - -[0m
+2024-10-11T14:03:06.735Z info: [0mGET /api/transactions [36m304[0m 121.188 ms - -[0m
+2024-10-11T14:03:09.767Z info: [0mGET /api/dashboard [36m304[0m 367.759 ms - -[0m
+2024-10-11T14:03:10.149Z info: [0mGET /api/dashboard [36m304[0m 378.085 ms - -[0m
+2024-10-11T14:05:48.392Z info: Server running on port 5000
+2024-10-11T14:05:49.663Z info: MongoDB connected
+2024-10-11T15:38:53.268Z info: Server running on port 5000
+2024-10-11T15:38:58.978Z info: MongoDB connected

@@ -1,10 +1,11 @@
 const express = require('express');
-const { registerUser, loginUser } = require('../controllers/userController');
-// const { upload, uploadKycDocument, approveKyc, rejectKyc } = require('../controllers/kycController');
+const { registerUser, loginUser, getUserData } = require('../controllers/userController');
+const authMiddleware = require('../middlewares/authMiddleware'); // Import the auth
 const router = express.Router();
 
 router.post('/register', registerUser);
 router.post('/login', loginUser);
+router.get('/me', authMiddleware, getUserData); // Add the new route with auth middleware
 
 // KYC routes
 // router.post('/kyc/upload', upload.single('kycDocument'), uploadKycDocument);

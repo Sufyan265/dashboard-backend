@@ -1,0 +1,56 @@
+2024-10-13T20:22:54.911Z info: Server running on port 5000
+2024-10-13T20:22:56.039Z info: MongoDB connected
+2024-10-13T20:23:12.815Z info: [0mPOST /api/users/login [32m200[0m 339.104 ms - 198[0m
+2024-10-13T20:37:36.752Z info: Server running on port 5000
+2024-10-13T20:37:38.091Z info: MongoDB connected
+2024-10-14T12:47:23.982Z info: Server running on port 5000
+2024-10-14T12:47:25.613Z info: MongoDB connected
+2024-10-14T12:55:38.399Z info: [0mGET /api/dashboard [36m304[0m 439.832 ms - -[0m
+2024-10-14T12:55:38.760Z info: [0mGET /api/dashboard [36m304[0m 357.477 ms - -[0m
+2024-10-14T13:08:14.634Z info: Server running on port 5000
+2024-10-14T13:08:16.156Z info: MongoDB connected
+2024-10-14T13:09:28.875Z info: Server running on port 5000
+2024-10-14T13:09:31.757Z info: Server running on port 5000
+2024-10-14T13:09:33.036Z info: MongoDB connected
+2024-10-14T13:11:39.219Z info: [0mPOST /api/users/login [32m200[0m 354.639 ms - 198[0m
+2024-10-14T13:11:54.215Z info: [0mPOST /api/users/me [33m404[0m 3.053 ms - 152[0m
+2024-10-14T13:11:56.698Z info: [0mGET /api/users/me [32m200[0m 141.034 ms - 215[0m
+2024-10-14T13:17:57.713Z info: [0mGET /api/dashboard [36m304[0m 6529.842 ms - -[0m
+2024-10-14T13:18:15.736Z info: [0mGET /api/dashboard [36m304[0m 18020.223 ms - -[0m
+2024-10-14T13:18:16.313Z info: [0mGET /api/dashboard [36m304[0m 571.731 ms - -[0m
+2024-10-14T13:18:17.069Z info: [0mGET /api/dashboard [36m304[0m 752.664 ms - -[0m
+2024-10-14T13:20:05.594Z info: [0mGET /api/dashboard [36m304[0m 404.038 ms - -[0m
+2024-10-14T13:20:06.179Z info: [0mGET /api/dashboard [36m304[0m 581.891 ms - -[0m
+2024-10-14T13:23:34.620Z info: [0mGET /api/dashboard [36m304[0m 2854.079 ms - -[0m
+2024-10-14T13:23:38.004Z info: [0mGET /api/dashboard [36m304[0m 3379.204 ms - -[0m
+2024-10-14T13:24:49.627Z info: [0mGET /api/dashboard [36m304[0m 357.172 ms - -[0m
+2024-10-14T13:24:49.999Z info: [0mGET /api/dashboard [36m304[0m 359.712 ms - -[0m
+2024-10-14T13:26:04.291Z info: [0mGET /api/dashboard [36m304[0m 444.279 ms - -[0m
+2024-10-14T13:26:04.663Z info: [0mGET /api/dashboard [36m304[0m 367.118 ms - -[0m
+2024-10-14T13:28:15.811Z info: [0mGET /api/dashboard [36m304[0m 362.847 ms - -[0m
+2024-10-14T13:28:16.203Z info: [0mGET /api/dashboard [36m304[0m 379.942 ms - -[0m
+2024-10-14T13:33:03.036Z info: [0mGET /api/dashboard [36m304[0m 376.044 ms - -[0m
+2024-10-14T13:33:03.392Z info: [0mGET /api/dashboard [36m304[0m 353.201 ms - -[0m
+2024-10-14T13:33:06.388Z info: [0mPOST /api/users/me [33m404[0m 1.118 ms - 152[0m
+2024-10-14T13:33:49.236Z info: [0mGET /api/users/me [33m401[0m 1.162 ms - 44[0m
+2024-10-14T13:34:55.363Z info: [0mGET /api/users/me [33m401[0m 0.915 ms - 44[0m
+2024-10-14T13:34:56.335Z info: [0mGET /api/users/me [33m401[0m 0.522 ms - 44[0m
+2024-10-14T13:34:58.247Z info: [0mGET /api/users/me [33m401[0m 0.453 ms - 44[0m
+2024-10-14T13:35:01.282Z info: [0mGET /api/users/me [33m401[0m 1.109 ms - 44[0m
+2024-10-14T13:38:43.602Z info: [0mGET /api/dashboard [36m304[0m 352.932 ms - -[0m
+2024-10-14T13:38:43.955Z info: [0mGET /api/dashboard [36m304[0m 350.446 ms - -[0m
+2024-10-14T13:39:02.017Z info: [0mGET /api/dashboard [36m304[0m 367.241 ms - -[0m
+2024-10-14T13:39:02.368Z info: [0mGET /api/dashboard [36m304[0m 349.026 ms - -[0m
+2024-10-14T13:39:03.038Z info: [0mGET /api/users/me [33m401[0m 0.776 ms - 44[0m
+2024-10-14T13:39:50.199Z info: [0mGET /api/users/me [33m401[0m 1.586 ms - 44[0m
+2024-10-14T13:40:27.031Z info: [0mPOST /api/users/login [32m200[0m 250.761 ms - 198[0m
+2024-10-14T13:40:27.469Z info: [0mGET /api/dashboard [36m304[0m 351.452 ms - -[0m
+2024-10-14T13:40:27.823Z info: [0mGET /api/dashboard [36m304[0m 351.063 ms - -[0m
+2024-10-14T13:40:40.340Z info: [0mGET /api/users/me [33m401[0m 1.180 ms - 44[0m
+2024-10-14T13:40:56.607Z info: [0mGET /api/users/me [32m200[0m 118.691 ms - 215[0m
+2024-10-14T13:41:26.466Z info: [0mGET /api/dashboard [36m304[0m 354.217 ms - -[0m
+2024-10-14T13:41:26.827Z info: [0mGET /api/dashboard [36m304[0m 357.812 ms - -[0m
+2024-10-14T13:41:27.186Z info: [0mGET /api/users/me [32m200[0m 119.733 ms - 215[0m
+2024-10-14T13:44:02.851Z info: [0mGET /api/users/me [36m304[0m 117.611 ms - -[0m
+2024-10-14T13:44:07.462Z info: [0mGET /api/users/me [36m304[0m 116.771 ms - -[0m
+2024-10-14T13:45:17.689Z info: [0mGET /api/users/me [36m304[0m 115.436 ms - -[0m
